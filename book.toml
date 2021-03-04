@@ -1,0 +1,17 @@
+[book]
+authors = ["Krzysztof Kowalczyk"]
+language = "pl"
+multilingual = false
+src = "src"
+title = "Jak zacząć karierę jako developer"
+
+# enable preprocessors:
+
+# [preprocessor.index]
+
+[preprocessor.links]
+
+# output-related options:
+
+[output.html.search]
+limit-results = 10
