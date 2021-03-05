@@ -3,17 +3,14 @@
 Prosty przewodnik napisany z myślą o studentach MIM UW, ale potencjalnie przydatny dla
 każdego kto zaczyna programować.
 
-## TODOs
-
-- [ ] Setup github actions & auto publishing
-- [ ] Dodać link do live wersji tutaj
+Najnowsza wersja poradnika jest dostępna pod adresem:
+[https://kowaalczyk.github.io/dev-kariera/](https://kowaalczyk.github.io/dev-kariera/)
 
 ## Dev setup
 
 Wymagania:
 
-- [git lfs](https://git-lfs.github.com/) do przechowywania grafik
-- [rust toolchain](https://rustup.rs/) do zainstalowania `mdbook`
+- [rust toolchain](https://rustup.rs/) do zainstalowania `mdbook` przy użyciu `cargo`
 - [mdbook](http://rust-lang.github.io/mdBook/): `cargo install mdbook` do budowania
   książki
 
