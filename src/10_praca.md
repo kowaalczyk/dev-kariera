@@ -5,7 +5,7 @@ rozwiązujemy nigdy nie są tak precyzyjnie postawione, projekty są znacznie wi
 wymagają współpracy wielu osób, wiele rzeczy zmienia się niezależnie od nas i wpływa to
 na zmiany w kodzie. Nie znaczy to że studia nie przydają się w pracy - byćmoże nie
 wszystkie przydają się w każdej pracy, ale jako osoba która skończyła MIMUW miałem
-wielokrotnie okazję wykorzystać to czego się nauczyłem w praktyce.
+wielokrotnie okazję wykorzystać to czego nauczyłem się na studiach w praktyce.
 
 ## Co tak naprawdę robią ludzie po informatyce
 

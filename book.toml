@@ -4,6 +4,7 @@ language = "pl"
 multilingual = false
 src = "src"
 title = "Jak zacząć karierę jako developer"
+license = "MIT OR Apache-2.0"
 
 # enable preprocessors:
 

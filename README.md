@@ -5,18 +5,17 @@ każdego kto zaczyna programować.
 
 ## TODOs
 
-- [ ] LICENSE + CONTRIBUTIONS.md
-- [ ] Setup git lfs
-- [ ] Setup github actions
-- [ ] Dodać link z mastera do README
+- [ ] Setup github actions & auto publishing
+- [ ] Dodać link do live wersji tutaj
 
 ## Dev setup
 
-Wymagaina:
+Wymagania:
 
-- [git lfs do przechowywania grafik](https://git-lfs.github.com/)
-- [rust toolchain](https://rustup.rs/)
-- [mdbook](http://rust-lang.github.io/mdBook/): `cargo install mdbook`
+- [git lfs](https://git-lfs.github.com/) do przechowywania grafik
+- [rust toolchain](https://rustup.rs/) do zainstalowania `mdbook`
+- [mdbook](http://rust-lang.github.io/mdBook/): `cargo install mdbook` do budowania
+  książki
 
 Opcjonalne ale przydatne:
 
@@ -33,3 +32,14 @@ mdbook serve --open
 # validate & build the HTML mdbook for release
 mdbook build
 ```
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License](LICENSE).
+
+## Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for
+inclusion in the work by you, shall be licensed as above, without any additional terms
+or conditions.

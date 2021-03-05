@@ -76,10 +76,10 @@ sposobów.
 > miałem przecięcie zainteresowań z osobą rekrutującą (de facto owym profesorem), więc
 > trochę trafiłem na łatwe dla mnie pytania
 >
-> https://nomagic.ai: Poczta pantoflowa. Marek Cygan, wykładowca na MIMie oraz CTO tej
-> firmy powiedział swojemu koledze (ćwiczeniowiec na MIMie), że poszukują praktykantów,
-> kolega powiedział swojej grupie ćwiczeniowej, w której była moja koleżanka, która
-> przekazała to do mnie
+> nomagic.ai: Poczta pantoflowa. Marek Cygan, wykładowca na MIMie oraz CTO tej firmy
+> powiedział swojemu koledze (ćwiczeniowiec na MIMie), że poszukują praktykantów, kolega
+> powiedział swojej grupie ćwiczeniowej, w której była moja koleżanka, która przekazała
+> to do mnie
 >
 > Nvidia: Po zakończeniu w/w praktyk w ICM, prowadzący profesor zaproponował, żebyśmy
 > pogłębiali swoje umiejętności aplikując do Nvidii. Za pierwszym razem miałem ostatnią
