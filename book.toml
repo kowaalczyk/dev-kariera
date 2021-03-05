@@ -4,7 +4,8 @@ language = "pl"
 multilingual = false
 src = "src"
 title = "Jak zacząć karierę jako developer"
-license = "MIT OR Apache-2.0"
+site-url = "https://kowaalczyk.github.io/dev-kariera/"
+license = "CC BY 4.0"
 
 # enable preprocessors:
 
