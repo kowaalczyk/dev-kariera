@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html lang="pl" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Przykłady pierwszych doświadczeń - Jak zacząć karierę jako developer</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="00_intro.html"><strong aria-hidden="true">1.</strong> Wprowadzenie</a></li><li class="chapter-item expanded "><a href="10_praca.html"><strong aria-hidden="true">2.</strong> Jak pracują programiści</a></li><li class="chapter-item expanded "><a href="11_pierwsze_doswiadczenia.html" class="active"><strong aria-hidden="true">3.</strong> Przykłady pierwszych doświadczeń</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Poznawanie rynku przez wydarzenia</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> Budowanie podstawowych umiejętności</div></li><li class="chapter-item expanded "><a href="20_rekrutacja.html"><strong aria-hidden="true">6.</strong> Jak wygląda proces rekrutacyjny</a></li><li class="chapter-item expanded "><a href="21_cv.html"><strong aria-hidden="true">7.</strong> Jak napisać dobre CV</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Jak przygotować się do zadań programistycznych</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Jak przygotować się do rozmów o pracę</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Co warto robić podczas stażu</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">11.</strong> Praca badawcza</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">12.</strong> DevOps</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">13.</strong> Data Science</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">14.</strong> Trading</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">15.</strong> Product management</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">16.</strong> Project management</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">17.</strong> Consulting</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">18.</strong> Czym różnią się duże firmy od małych</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">19.</strong> Jak planować ścieżkę kariery</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">20.</strong> Przydatne miękkie umiejętności</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Jak zacząć karierę jako developer</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="przykłady-pierwszych-doświadczeń"><a class="header" href="#przykłady-pierwszych-doświadczeń">Przykłady pierwszych doświadczeń</a></h1>
+<p>Pisanie tego poradnika zacząłem w zasadzie od zapytania znajomych jak oni dostali się na
+swój pierwszy staż - w praktyce często to właśnie pierwszy krok jest najtrudniejszy,
+jednak jak pokazują poniższe przykłady trudności można pokonać na wiele różnych
+sposobów.</p>
+<h2 id="znajoma-1"><a class="header" href="#znajoma-1">Znajoma #1</a></h2>
+<blockquote>
+<p>Ja w liceum zrobiłam CV, na którym nie było nic oprócz OI i pracowania w szkole.
+Wysłałam do Samsunga w Warszawie, zaprosili mnie na rozmowę i myślę, że miałam dużo
+szczęścia, bo rozmawiał ze mną szef, który lubi takie wyzwania jak wzięcie licealisty
+do pracy xd Najważniejsze to mieć świadomość, że jak się czegoś nie potrafi to
+przecież po to jest staż, żeby się tego nauczyć. Tego szuka potencjalny przełożony,
+żeby mieć kogoś kto chętnie posłucha i potem jak mu się wytłumaczy, to dopiero wtedy
+zrobi sam. Mega miło wspominam ten staż. Potem poszłam na STEP w Googlu, bo to taki
+specjalnie dla 1- i 2- rocznych. Dość prosta rekrutacja (2 rozmowy
+okoloalgorytmiczne). Warto zaaplikować jak najwcześniej, bo proces trwa dość długo.</p>
+</blockquote>
+<h2 id="znajomy-2"><a class="header" href="#znajomy-2">Znajomy #2</a></h2>
+<blockquote>
+<p>Ja w zeszłym roku akademickim wysłałem CV w około 100 miejsc, miałem koło 15 rozmów, 2
+pozytywne 🙂 myśle że trzeba po prostu aplikować gdzie sie tylko da</p>
+</blockquote>
+<h2 id="znajomy-3"><a class="header" href="#znajomy-3">Znajomy #3</a></h2>
+<blockquote>
+<p>Rozdawałem CV na lewo i prawo na targach pracy w PKiN i dostałem pracę w Schindlerze,
+szwajcarskiej firmie od dźwigów, gdzie pomagałem kierownikom montażu nadzorować pracę
+na budowach (np. siedziałem na dachu windy i jeździłem nią sterując panelem na dachu).
+Poza tym to klepałem makra w excelu 🙂</p>
+</blockquote>
+<h2 id="znajoma-4"><a class="header" href="#znajoma-4">Znajoma #4</a></h2>
+<blockquote>
+<p>Praca na część etatu: rozwiązałam zagadkę ukrytą w zadaniu na PO i dzięki temu
+prowadzący mnie znał, więc on się do mnie odezwał.</p>
+<p>Google, staż SWE: na trzecim roku pierwszy raz na poważnie zaaplikowałam do Googla z
+referalem, dostałam rozmowę i się dostałam. wniosek: nie bać się aplikować wcześniej
+(na pierwszym roku można na STEPa!). Rok później wróciłam do Googla. Pierwszy raz
+miałam trochę nudny projekt, drugi raz lepiej trafiłam i było super!</p>
+<p>IBM: Paweł Gora wysłał na maila mimowego informację o programie stażowym dla osób z
+Europy Wschodniej i Afryki. Byłam pewna, że jeśli bym zaaplikowała, to by mnie nie
+wzięli, ale się jednak przemogłam. Trzeba było napisać esej i mieć rekomendację z
+uczelni, poprosiłam o to właśnie Pawła Gorę, który był moim opiekunem licencjatu.
+Potem była umiarkowanie techniczna rozmowa i okazało się, że się dostałam. Zrobiłam
+sobie semestr przerwy, żeby zrealizować ten staż. Było bardzo warto.</p>
+<p>Oprócz tego chyba warto wspomnieć, że jest drugie tyle procesów rekrutacyjnych,
+których nie przeszłam: Nvidia, Facebook, Microsoft, Palantir i inne 🙂</p>
+</blockquote>
+<h2 id="znajoma-5"><a class="header" href="#znajoma-5">Znajoma #5</a></h2>
+<blockquote>
+<p>Pod koniec pierwszego roku studiów postanowiłam, że będę starała się dostać na staż do
+Google’a w wakacje po drugim roku. Żeby nie bać się aplikować bez doświadczenia,
+postanowiłam pójść w lipcu na miesięczny “staż” do malutkiej firmy informatycznej
+znajomych. Dzięki temu w październiku mogłam wysłać CV bez obaw, że jest puste. Nie
+pomogło mi to na etapie samych interview, ale na pewno przydało się w czasie host
+matchingu, bo mój host wprost powiedział, że zwrócił uwagę na to, co robiłam wcześniej
+i dlatego mnie wybrał.</p>
+<p>Przy późniejszych stażach bardzo pomogło mi branie udziału w eventach organizowanych
+przez firmy. W FB urządzali serię 2 próbnych interview 1:1 z intervirwerem w odstępie
+miesiąca, żeby na drugim można było zobaczyć, czy jest lepiej po zastosowaniu się do
+rad z pierwszego podejścia. Po tym evencie rekruterka sama odezwała się do mnie już w
+lipcu zachęcając do stażu rok później.</p>
+</blockquote>
+<h2 id="znajomy-6"><a class="header" href="#znajomy-6">Znajomy #6</a></h2>
+<blockquote>
+<p>Żaden z moich staży nie był zapoczątkowany aktywnym poszukiwaniem, a zauważeniem i
+skorzystaniem z okazji.</p>
+<p>ICM: Na JNP2 prowadzący profesor z ICM zaproponował studentom z najlepszymi wynikami
+(optymalizacji algorytmów na GPU) możliwość praktyk w ICM i pogłębienia umiejętności,
+temat mnie interesował, więc skorzystałem, w rozmowie rekrutacyjnej pomógł fakt, że
+miałem przecięcie zainteresowań z osobą rekrutującą (de facto owym profesorem), więc
+trochę trafiłem na łatwe dla mnie pytania</p>
+<p>nomagic.ai: Poczta pantoflowa. Marek Cygan, wykładowca na MIMie oraz CTO tej firmy
+powiedział swojemu koledze (ćwiczeniowiec na MIMie), że poszukują praktykantów, kolega
+powiedział swojej grupie ćwiczeniowej, w której była moja koleżanka, która przekazała
+to do mnie</p>
+<p>Nvidia: Po zakończeniu w/w praktyk w ICM, prowadzący profesor zaproponował, żebyśmy
+pogłębiali swoje umiejętności aplikując do Nvidii. Za pierwszym razem miałem ostatnią
+rozmowę (live coding) wieczorem po kolosie, więc mózg odmówił mi działania i odpadłem.
+Rok później był event Nvidii na MIMie, taki jak parę tygodni temu, rzuciłem wszystko,
+żeby jak najlepiej rozwiązać zadanie domowe, później miałem 3-4 rozmowy i dostałem
+offer letter</p>
+<p>Nvidia2: po udanych pierwszych praktykach była obustronna chęć ich powtórzenia, co się
+później stało</p>
+</blockquote>
+<h2 id="znajomy-7"><a class="header" href="#znajomy-7">Znajomy #7</a></h2>
+<blockquote>
+<p>&quot;W połowie pierwszego roku poszedłem na wykład Intela (nie planowałem stażu) i
+rekruterka przed wejściem kazała mi napisać CV i wysłać do nich. Tak wyszło że mnie
+wzięli. Dodam tylko jako disclaimer że w momencie jak to się działo byłem po Staszicu,
+OMie i OIu i z ponad sześcioma latami znajomości C++. Nigdy (pomimo aplikowania
+kilkukrotnie) nie przeszedłem nawet pierwszego screeningu w Facebooku ani Googlu. W
+sumie to mi na dobre wyszło&quot;</p>
+</blockquote>
+<h2 id="ja"><a class="header" href="#ja">Ja</a></h2>
+<blockquote>
+<p>Po wygraniu high school business challenge dostałem ofertę pomagania przez tydzień za
+darmo w inkubatorze aip sgh (jeszcze przed studiami) i w czasie pierwszego roku
+zatrudniłem się (tym razem dzięki olimpiadzie ekonomicznej) jako student support w bcg
+(faktycznie pracując w ciągu całego roku tylko 4 dni, ale zawsze jakiś wpis w cv). W 2
+semestrze zapisałem się też na warsztaty daftcodu z ruby on rails, gdzie na koniec
+dostałem zaproszenie żeby aplikować na staż. Rozmowa poszła całkiem dobrze (chociaż
+wcześniej byłem chyba tylko na jednej rozmowie którą oblałem), natomiast byłem jedną z
+kilkudziesięciu osób na ten staż i razem z ofertą dostałem feedback że to właśnie moje
+wcześniejsze doświadczenia (olimpiady, wcześniejsza praca) i zainteresowanie
+start-upami przesądziło o tym że to ja dostałem ofertę.</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="10_praca.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="20_rekrutacja.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="10_praca.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="20_rekrutacja.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

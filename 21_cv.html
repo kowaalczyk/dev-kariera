@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<html lang="pl" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Jak napisać dobre CV - Jak zacząć karierę jako developer</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="00_intro.html"><strong aria-hidden="true">1.</strong> Wprowadzenie</a></li><li class="chapter-item expanded "><a href="10_praca.html"><strong aria-hidden="true">2.</strong> Jak pracują programiści</a></li><li class="chapter-item expanded "><a href="11_pierwsze_doswiadczenia.html"><strong aria-hidden="true">3.</strong> Przykłady pierwszych doświadczeń</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Poznawanie rynku przez wydarzenia</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> Budowanie podstawowych umiejętności</div></li><li class="chapter-item expanded "><a href="20_rekrutacja.html"><strong aria-hidden="true">6.</strong> Jak wygląda proces rekrutacyjny</a></li><li class="chapter-item expanded "><a href="21_cv.html" class="active"><strong aria-hidden="true">7.</strong> Jak napisać dobre CV</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Jak przygotować się do zadań programistycznych</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Jak przygotować się do rozmów o pracę</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Co warto robić podczas stażu</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">11.</strong> Praca badawcza</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">12.</strong> DevOps</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">13.</strong> Data Science</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">14.</strong> Trading</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">15.</strong> Product management</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">16.</strong> Project management</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">17.</strong> Consulting</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">18.</strong> Czym różnią się duże firmy od małych</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">19.</strong> Jak planować ścieżkę kariery</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">20.</strong> Przydatne miękkie umiejętności</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Jak zacząć karierę jako developer</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="jak-napisać-dobre-cv"><a class="header" href="#jak-napisać-dobre-cv">Jak napisać dobre CV</a></h1>
+<p>Wiele osób popełnia błędy podczas pisania CV które utrudniają im znalezienie najlepszych
+okazji. W internecie łatwo jest znaleźć wiele stron z zasadami które warto przestrzegać.
+Podstawowe z nich to <a href="https://www.thinkful.com/blog/tech-resume/">[1]</a>:</p>
+<ul>
+<li>ogranicz CV do jednej strony A4</li>
+<li>pisz proste zdania w punktach, unikaj bloków tekstu i złożonych zdań</li>
+<li>stawiaj na prostotę (brak zdjęć, grafik, niestandardowego układu strony)</li>
+<li>zadbaj o poprawną gramatykę (najlepiej pisać po angielsku i używać narzędzi typu
+grammarly do sprawdzania poprawności)</li>
+<li>przedstaw swoje osiągnięcia w mierzalny sposób (<em>x-y-z formula</em>)</li>
+<li>wysyłaj CV zawierające tylko doświadczenia które mogą być przydatne w docelowej roli</li>
+</ul>
+<h2 id="przykłady-moich-cv-i-tego-co-mogłem-zrobić-lepiej"><a class="header" href="#przykłady-moich-cv-i-tego-co-mogłem-zrobić-lepiej">Przykłady moich CV i tego co mogłem zrobić lepiej</a></h2>
+<p>Zanim przejdę do bardziej konkretnej listy co robić / czego nie robić, warto przejrzeć
+kilka przykładów żeby wszystko wydawało się bardziej oczywiste 🙂</p>
+<h3 id="pierwsze-cv"><a class="header" href="#pierwsze-cv">Pierwsze CV</a></h3>
+<p>Moje pierwsze CV (2016, w czasie 1 roku studiów kiedy aplikowałem na staże w małych
+firmach progamistycznych) napisałem nie znając większości porad które tutaj udostępniam:</p>
+<p><img src="images/cv_01.png" alt="Pierwsze CV" /></p>
+<p>Co można tu poprawić:</p>
+<ul>
+<li>zdjęcie jest kompletnie niepotrzebne, w niektórych krajach i firmach może nas nawet
+zdyskwalifikować <a href="https://graduateland.com/article/profile-picture-cv">[2]</a></li>
+<li>jest dużo pustego miejsca i mało szczegółów nt edukacji (np. brakuje studiów i
+przedmiotów, wypisanie ich mogłoby znacząco zwiększyć moje szanse)</li>
+<li>kolorowe cv może źle się drukować na czarno-białych drukarkach (ludzie używają papieru
+częściej niż się wydaje żeby notować sobie rzeczy bezpośrednio na CV kandydata)</li>
+<li>dużo niepotrzebnego szumu, np. napis &quot;CURRICULUM VITAE&quot; jest kompletnie niepotrzebny,
+podobnie jak adres zamieszkania i data urodzenia</li>
+<li>brak linków do stron związanych z osiągnięciami / projektami</li>
+<li>CV w języku polskim nie ma sensu (zakładając że aplikuje się też do międzynarodowych
+firm), bo utrzymywanie polskiego i angielskiego CV jest zbyt czasochłonne</li>
+</ul>
+<p>Z tym CV aplikowałem do kilku(nastu?) lokalnych firm w Warszawie, od wiekszości odbiłem
+się od razu - jest to normalne. Jedna zaprosiła mnie na rozmowę ale podziękowała
+później, natomiast Daftcode postanowił dać mi szanse (z tym CV + ukończonymi warsztatami
+z Ruby-on-Rails które prowadzili w czasie semestru). Tak dostałem się na pierwszy staż.</p>
+<h3 id="drugie-cv"><a class="header" href="#drugie-cv">Drugie CV</a></h3>
+<p>Drugie CV napisałem w 2017, żeby po 1 roku aplikować na różne bardziej biznesowe
+wydarzenia (warsztaty itp). Wtedy nie wiedziałem jeszcze czy chcę w ogóle pracować jako
+programista i chodziłem na dużo różnych wydarzeń z innych branż (bankowość inwestycyjna,
+consulting, venture capital, private equity). Myślałem o stażach gdzie moje
+programistyczne / matematyczne zdolności mogłyby być przydatne ale niekoniecznie
+wymagane i tak wyglądało CV którego używałem przy takich okazjach:</p>
+<p><img src="images/cv_02.png" alt="Drugie CV" /></p>
+<p>Ważne zmiany w stosunku do poprzedniego to:</p>
+<ul>
+<li>jest znacznie prostsze i łatwiejsze do utrzymywania, podobnego formatu trzymam się aż
+do teraz, oryginalne źródło szablonu to
+<a href="https://www.wallstreetoasis.com/forums/investment-banking-resume-template">Investment Banking CV Template</a>
+które polecili mi znajomi z Klubu Inwestora SGH</li>
+<li>liczby w nagrodach potwierdzają prestiż tych osiągnięć i pozwalają je porównywać</li>
+<li>czarno-białe CV bez zdjęcia jest znacznie bardziej przyjazne dla drukarek</li>
+<li>extracurricular activities które są wymienione jako doświadczenie to bardzo fajny
+sposób żeby cv było pełne (one też lepiej podkreślają umiejętności biznesowe niż sama
+lista umiejętności)</li>
+<li>zmieniona kolejność: rzeczy które są związane z tym na co aplikowałem są na górze
+(mało o studiach, dużo o biznesie - olimpiadach i kołach naukowych)</li>
+</ul>
+<p>Oczywiście to nie jest CV które wysłałbym do jakiejkolwiek programistycznej firmy.</p>
+<p>Ponadto, wciąż brakuje tu kilku rzeczy:</p>
+<ul>
+<li>w osiągnięciach i extracurricular activities brakuje &quot;so what&quot; - nie wspominam ani o
+tym dlaczego robiłem to co robiłem, ani jakie były tego końcowe efekty (co zostało
+osiągnięte, czego się nauczyłem, itd.)</li>
+<li>umiejętności nie są do końca aktualne (w szczególności brakuje Ruby-on-Rails, w którym
+w zasadzie czułem się wtedy najpewniej jako developer)</li>
+</ul>
+<h3 id="trzecie-cv"><a class="header" href="#trzecie-cv">Trzecie CV</a></h3>
+<p>Przed wakacjami w 2018 (po 2 roku studiów) nasłuchałem się dużo nt. tego jak data
+science i analityka ogólnie jest idealnym połączeniem zainteresowania biznesem z
+umiejętnościami programistycznymi, chciałem więc zdobyć pierwsze doświadczenia w tym
+kierunku. W tym celu aplikowałem na programistyczne staże po raz kolejny - tym razem z
+takim CV:</p>
+<p><img src="images/cv_03.png" alt="Trzecie CV" /></p>
+<p>Ważne zmiany:</p>
+<ul>
+<li>łatwo widoczne umiejętności, na równi z doświadczeniem (jest to znacznie ważniejsza
+zmiana niż się wydaje, ponieważ przeciętne CV jest oglądane przez ≤10s i rekruter
+nigdy nie rzuci okiem na coś co nie jest w górnych 2/3 strony - na typowym komputerze
+po otwarciu typowego PDF-a ta część nie jest nawet wyświetlana)</li>
+<li>link do githuba i linkedin zamiast adresu (znacznie bardziej pożyteczne dla
+rekruterów)</li>
+<li>linki (email, linkedin, github) są klikalne w oryginalnym CV (zaznaczam bo na stronie
+tego widać, jest ono wyświetlone jako zdjęcie)</li>
+<li>w zasadzie wszystkie biznesowe rzeczy z poprzednieg cv trafiły na sam dół jako
+zainteresowania (bo w tym kontekście to nie było dużo więcej)</li>
+<li>zamiast wymieniania wszystkich kół naukowych jako doświadczenie, zostawiłem tam jedyny
+projekt którym zarządzałem (żeby pokazać że mam ambicje managerskie / basic skille
+wystarczające żeby za parę lat zostać dobrym technical managerem)</li>
+</ul>
+<p>To wciąż można było poprawić:</p>
+<ul>
+<li>dając więcej info nt kursów ze studiów (aczkolwiek moja średnia była wtedy tragiczna
+(ok. 3.2) i nie chciałem tego podkreślać)</li>
+<li>niektóre nazwy technologii są pogrubione żeby je zaznaczyć, ale to nie wygląda ładnie</li>
+</ul>
+<p>Tym razem aplikowałem na bardzo wiele pozycji (jakieś 20-30) ale odpowiedź dostałem
+tylko od 3-5. Ostatecznie byłem na kilku rozmowach i dostałem oferty od startupu Cosmose
+(gdzie miałbym pisać aplikację w zespole z innymi studentami z MIMu) i Semantive (gdzie
+miałem dołączyć do zespołu internów uczących się data science pod okiem bardziej
+doświadczonych pracowników). Ta druga opcja była dokładnie tym czego potrzebowałem, i
+dostałem ją przede wszystkim dzięki temu że wymieniłem <em>basic project management</em>
+którego nauczyłem się podczas projektów na SGH - przekonało to założycieli firmy że mogę
+wnieść do zespołu bardziej analitycznych ludzi jakieś zdolności organizacji pracy i
+praktyczne myślenie o tym co pożytecznego możemy zrobić. W ten sposób udało mi się
+skierować na ścieżkę kariery na której jestem obecnie, bo bardzo mi się podoba to co
+robię od tamtego czasu.</p>
+<h3 id="kolejne-cv"><a class="header" href="#kolejne-cv">Kolejne CV</a></h3>
+<p>Kolejne CV są już bardzo podobne, jednak wciąż to na co zwracałem uwagę to ciągłe
+ulepszanie tego, w jaki sposób komunikuję swoje umiejętności i osiągnięcia - zwięźle,
+ale tak żeby przekazać wszystkie ważne rzeczy. Używałem tego samego szablonu,
+aktualizując go tylko o nowe doświadczenia i poprawiając istniejące opisy - w ten sposób
+nie musiałem nigdy spędzać na tym dużo czasu.</p>
+<p>Po stażu w Semantive próbowałem pracować part-time w czasie semetru, jednak nie wyszło
+mi to na dobre i po 3 miesiącach musiałem to skończyć. Na kolejny staż aplikowałem do
+BCG, firmy której znałem dobrze dzięki wcześniejszym doświadczeniom (program
+mentoringowy, student support i olimpiada).</p>
+<p><img src="images/cv_04.png" alt="Czwarte CV" /></p>
+<p>Widać tu nowe zmiany w doświadczeniu, jednak formatowanie z jakiegoś powodu wydaje się
+bardzo dziwne (szczerze mówiąc nie jestem przekonany że to dokładnie ta wersja którą
+wysłałem).</p>
+<p>Mając świetną ofertę z BCG (gdzie bardzo mi się podobało i byłem dobrze wynagradzany)
+pomyślałem że jedyną firmą w której może potencjalnie być ciekawiej jest Palantir
+(znajomy opowiedział mi dużo nt swoich doświadczeń i wydawało się to podobne do tego co
+robiłem w BCG, jednak bardziej nastawione na budowanie produktu niż na świadczenie
+jednorazowych usług). Aplikowałem więc tam, oraz na <em>Assosciate Product Manager Intern</em>
+do Google, gdzie jednak odbiłem się na ostanim etapie, z takim CV:</p>
+<p><img src="images/cv_05.png" alt="Piąte CV" /></p>
+<p>Tutaj widać już znaczące poprawy:</p>
+<ul>
+<li>każdy punkt doświadczenia zawiera info o tym jaka była jego wartość dla firmy lub
+czego się nauczyłem</li>
+<li>wszystkie studenckie doświadczenia wylądowały na dole, bo mam już wystarczająco tych
+prawdziwych</li>
+<li>umiejętności są drugorzędne, znacznie ważniejsze jest podkreślenie projektów (actions
+speak louder than words), każdy z projektów zawiera link do demonstracji /
+repozytorium kodu a jego opis podkreśla jakimi umiejętnościami wykazałem się w trakcie</li>
+</ul>
+<p>Przed stażem w Palantirze rozpoczęła się pandemia koronawirusa, dzięki której udało mi
+się zapisać w marcu na znacznie więcej przedmiotów i zaliczyć je wszystkie korzystając z
+tego że wszystko działo się zdalnie (konflikty w wykładach nie były problemem bo
+wszystko było nagrywane, ponadto większośc przedmiotów można było zaliczyć samymi
+projektami bez egzaminów, co bardzo faworyzuje samoorganizujące się osoby takie jak ja).</p>
+<p>Mając zaliczone prawie wszystkie przedmioty oraz oferty powrotu po studiach od Palantira
+i BCG, postanowiłem spróbować założyć własny biznes. W tym celu aplikowałem do
+Entrepreneur First z takim CV, które bardzo im się spodobało i w efekcie zostałem
+przyjęty:</p>
+<p><img src="images/cv_06.png" alt="Szóste CV" /></p>
+<p>Pomimo tego że nie udało mi się założyć tam start-upu, wciąż eksperymentuję z kilkoma
+projektami oraz od czasu do czasu rozmawiam z headhunterami którzy szukają osób o moim
+profilu. Obecnie posługuję się takim CV:</p>
+<p><img src="images/cv_07.png" alt="Siódme CV" /></p>
+<p>Jest ono dobre, ale problemem jest zbyt dużo tekstu - pokazuje to że o ile z biegiem
+czasu coraz łatiwej dostawać coraz ciekawsze oferty, problemy z CV pozostają te same 🙂</p>
+<h2 id="dodatkowe-rady"><a class="header" href="#dodatkowe-rady">Dodatkowe rady</a></h2>
+<p>Teraz polecam przeczytać trochę tipów dotyczących jak napisać CV i napisać swoje:</p>
+<ul>
+<li>ogólny poradnik z przykładami, w szczególności opisujący pisanie pierwszego cv:
+<a href="https://novoresume.com/career-blog/resume-advice-for-students-with-no-experience">link</a>
+<ul>
+<li>pokazując umiejętności, nie warto używać skali bardziej precyzyjnej niż 1-5 (ja
+osobiście nie używam 1-3 jeśli muszę, ale najczęściej żadnej)</li>
+</ul>
+</li>
+<li>kolejny ogólny poradnik, tym razem dedykowany dla developerów:
+<a href="https://stackoverflow.blog/2020/11/25/how-to-write-an-effective-developer-resume-advice-from-a-hiring-manager/">link</a></li>
+<li>jak opisywać swoje doświadczenia (kiedy jest się trochę bardziej doświadczonym):
+<a href="https://www.inc.com/bill-murphy-jr/google-recruiters-say-these-5-resume-tips-including-x-y-z-formula-will-improve-your-odds-of-getting-hired-at-google.html">link</a></li>
+<li>dla większości ludzi word / google docs jest prostszy w użyciu niż latex (nawet
+używając overleafa)
+<ul>
+<li>tutaj jest mój ulubiony template do worda:
+<a href="https://www.mergersandinquisitions.com/free-investment-banking-resume-template/">link</a>
+(raczej nie będzie działał w google docs)</li>
+<li>fajną alternatywą do zrobienia na szybko może być generator:
+<a href="https://jsonresume.org/">https://jsonresume.org/</a></li>
+<li>cv tak czy inaczej zawsze eksportujemy do pdf i wysyłamy w takiej formie</li>
+</ul>
+</li>
+<li>przed wysłaniem spytaj się kogoś bardziej doświadczonego (np. mnie) o sprawdzenie czy
+jest git i sprawdź poprawność tego co piszesz za pomocą narzędzia typu grammarly</li>
+<li>jeśli utrzymujesz kilka wersji cv (ja np. zanim znalazłem swoją niszę w data science
+robiłem jedno pod consulting / finance, drugie pod software) warto trzymać jeden plik
+z opisami wszystkich doświadczeń, technologii, itp, i tylko kopiować potrzebne żeczy
+przy przygotowaniu konkretnego cv</li>
+<li>ogólnie jedno cv wystarczy jeśli aplikujesz na podobne role (nie trzeba go
+customizować pod konkretne firmy), natomiast jeśli firma wymaga cover letter to
+koniecznie trzeba napisać coś specjalnie pod nią</li>
+<li>żeby szybko pisać CV (i inne tego typu rzeczy które nie są najbardziej naturalne)
+najlepszą metodą jest pisanie jak najięcej bez zastanowienia i poprawianie lub
+przepisywanie potem tego co się napisało - większość osób które znam spędza nad
+pisaniem bardzo długo bo za dużo myśli, znacznie łatwiej jest napisać byle co i
+poprawiać dopóki nie uzyska się satysfakcjonującego wyniku</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="20_rekrutacja.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="20_rekrutacja.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
