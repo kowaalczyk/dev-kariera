@@ -2,20 +2,19 @@
 
 Pisanie tego poradnika zacząłem w zasadzie od zapytania znajomych jak oni dostali się na
 swój pierwszy staż - w praktyce często to właśnie pierwszy krok jest najtrudniejszy,
-jednak jak pokazują poniższe przykłady trudności można pokonać na wiele różnych
-sposobów.
+jednak jak pokazują poniższe przykłady trudności można pokonać na wiele różnych sposobów.
 
 ## Znajoma #1
 
 > Ja w liceum zrobiłam CV, na którym nie było nic oprócz OI i pracowania w szkole.
 > Wysłałam do Samsunga w Warszawie, zaprosili mnie na rozmowę i myślę, że miałam dużo
 > szczęścia, bo rozmawiał ze mną szef, który lubi takie wyzwania jak wzięcie licealisty
-> do pracy xd Najważniejsze to mieć świadomość, że jak się czegoś nie potrafi to
-> przecież po to jest staż, żeby się tego nauczyć. Tego szuka potencjalny przełożony,
-> żeby mieć kogoś kto chętnie posłucha i potem jak mu się wytłumaczy, to dopiero wtedy
-> zrobi sam. Mega miło wspominam ten staż. Potem poszłam na STEP w Googlu, bo to taki
-> specjalnie dla 1- i 2- rocznych. Dość prosta rekrutacja (2 rozmowy
-> okoloalgorytmiczne). Warto zaaplikować jak najwcześniej, bo proces trwa dość długo.
+> do pracy xd Najważniejsze to mieć świadomość, że jak się czegoś nie potrafi to przecież
+> po to jest staż, żeby się tego nauczyć. Tego szuka potencjalny przełożony, żeby mieć
+> kogoś kto chętnie posłucha i potem jak mu się wytłumaczy, to dopiero wtedy zrobi sam.
+> Mega miło wspominam ten staż. Potem poszłam na STEP w Googlu, bo to taki specjalnie dla
+> 1- i 2- rocznych. Dość prosta rekrutacja (2 rozmowy okoloalgorytmiczne). Warto
+> zaaplikować jak najwcześniej, bo proces trwa dość długo.
 
 ## Znajomy #2
 
@@ -42,12 +41,12 @@ sposobów.
 > IBM: Paweł Gora wysłał na maila mimowego informację o programie stażowym dla osób z
 > Europy Wschodniej i Afryki. Byłam pewna, że jeśli bym zaaplikowała, to by mnie nie
 > wzięli, ale się jednak przemogłam. Trzeba było napisać esej i mieć rekomendację z
-> uczelni, poprosiłam o to właśnie Pawła Gorę, który był moim opiekunem licencjatu.
-> Potem była umiarkowanie techniczna rozmowa i okazało się, że się dostałam. Zrobiłam
-> sobie semestr przerwy, żeby zrealizować ten staż. Było bardzo warto.
+> uczelni, poprosiłam o to właśnie Pawła Gorę, który był moim opiekunem licencjatu. Potem
+> była umiarkowanie techniczna rozmowa i okazało się, że się dostałam. Zrobiłam sobie
+> semestr przerwy, żeby zrealizować ten staż. Było bardzo warto.
 >
-> Oprócz tego chyba warto wspomnieć, że jest drugie tyle procesów rekrutacyjnych,
-> których nie przeszłam: Nvidia, Facebook, Microsoft, Palantir i inne 🙂
+> Oprócz tego chyba warto wspomnieć, że jest drugie tyle procesów rekrutacyjnych, których
+> nie przeszłam: Nvidia, Facebook, Microsoft, Palantir i inne 🙂
 
 ## Znajoma #5
 

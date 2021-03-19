@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "editor.rulers": [88],
-  "prettier.printWidth": 88,
+  "editor.rulers": [89],
+  "prettier.printWidth": 89,
   "prettier.proseWrap": "always"
 }
