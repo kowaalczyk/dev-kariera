@@ -13,8 +13,8 @@
 
 - [Jak wygląda proces rekrutacyjny](./20_rekrutacja.md)
 - [Jak napisać dobre CV](./21_cv.md)
-- [Jak przygotować się do zadań programistycznych]()
-- [Jak przygotować się do rozmów o pracę]()
+- [Jak przygotować się do zadań programistycznych](./22_assignments.md)
+- [Jak przygotować się do rozmów o pracę](./23_interviews.md)
 - [Co warto robić podczas stażu]()
 
 ## Specjalizacje
