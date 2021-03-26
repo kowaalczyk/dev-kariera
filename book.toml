@@ -4,7 +4,6 @@ language = "pl"
 multilingual = false
 src = "src"
 title = "Jak zacząć karierę jako developer"
-site-url = "https://kowaalczyk.github.io/dev-kariera/"
 license = "CC BY 4.0"
 
 # enable preprocessors:
@@ -14,6 +13,10 @@ license = "CC BY 4.0"
 [preprocessor.links]
 
 # output-related options:
+
+[output.html]
+site-url = "https://kowaalczyk.github.io/dev-kariera/"
+git-repository-url = "https://github.com/kowaalczyk/dev-kariera"
 
 [output.html.search]
 limit-results = 10
