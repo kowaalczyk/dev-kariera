@@ -8,6 +8,13 @@ on od wysłania CV, następnie przejścia kilku zadań online i kończy się roz
 Na początku wszystkie etapy mogą wydawać się ciężkie i stresujące, jednak z czasem
 wszystko przychodzi znacznie łatwiej.
 
+W tym rozdziale postaram się opisać proces rekrutacyjny dosyć ogólnie ale w całości.
+Dzięki temu będziesz wiedzieć czego mniej-więcej się spodziewać, natomiast każda firma
+podchodzi do tego trochę inaczej. O szczegóły procesu w konkretnej firmie i to jak się
+przygotować do każdego etapu warto spytać rekrutera podczas pierwszej możliwej okazji.
+Oprócz tego, moje wskazówki dotyczące konkretnych typów zadań rekrutacyjnych znajdziesz
+w dalszych rozdziałach tego poradnika.
+
 ## Początek
 
 Aby firma do której chcesz się dostać w jakiś sposób dowiedziała się o Twoim istnieniu,

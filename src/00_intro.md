@@ -3,6 +3,11 @@
 Prosty przewodnik napisany z myślą o studentach MIM UW, ale potencjalnie przydatny dla
 każdego kto zaczyna programować.
 
+Przeczytanie poradnika w całości pomoże Ci zaplanować swoją karierę zawodową,
+tak aby w dłuższej perspektywie znaleźć ciekawą, dobrze płatną i rozwojową pracę.
+Wybiórcze czytanie rozdziałów o pisaniu CV, rozmowach o pracę itp. może być również
+pomocne, ale będzie często pozbawione kontekstu który pozwala zrozumieć co warto.
+
 ## Spis treści
 
 ### Szybkie wprowadzenie do rynku pracy

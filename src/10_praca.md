@@ -9,12 +9,18 @@ wielokrotnie okazję wykorzystać to czego nauczyłem się na studiach w praktyc
 
 Liczba technologii, narzędzi i sposobów ich wykorzystania może wydawać się
 przytłaczająca, ale w praktyce praca programisty polega na ciągłym uczeniu się nowych
-rzeczy i rozumieniu ich coraz dokładniej. To normalne że na początku nie umiesz prawie
-niczego, jednak z czasem coraz szybciej będziesz w stanie uczyć się nowych rzeczy.
-Schematy których nauczysz się jeszcze na studiach, w pracy i podczas własnych
-eksperymentów będą powtarzały się coraz częściej - nieznajomość szczegółów implementacji
-jest stanem normalnym, w miarę z rozwojem doświadczenia przyzwyczaisz się do tego coraz
-bardziej bo zrozumienie nieznanych rzeczy będzie coraz prostsze.
+rzeczy i rozumieniu ich coraz dokładniej. To normalne że na początku czujesz że nie
+umiesz prawie niczego. Co więcej, taka sytuacja spotyka od czasu do czasu nawet najbardziej
+doświadczonych programistów - technologie zmieniają się bardzo szybko i praktycznie przy
+każdym nowym projekcie trzeba się nauczyć czegoś nowego. Z czasem jednak coraz szybciej
+będziesz w stanie uczyć się nowych rzeczy i stan niewiedzy stanie się znacznie bardziej
+znośny. Schematy których nauczysz się na studiach, w pracy i podczas własnych
+eksperymentów będą powtarzały się coraz częściej. Będąc zabieganym często łatwo jest nie
+zauważyć jak dużo się umie i wątpić w swoje umiejętności czy wiedzę. Czasami warto wrócić
+pamięcią rok w przeszłość i zastanowić się ile nowych rzeczy nauczyliśmy się w tym czasie.
+W ten sposób łatwiej jest uwierzyć w swoje zdolności do nauki i nie przejmować się
+nieznajomością konkretnych narzędzi. Gdybym miał wskazać jedną cechę która wyróżnia dobrych
+programistów, to byłaby właśnie wiara we własną zdolność do uczenia się nowych rzeczy.
 
 ## Co tak naprawdę robią ludzie po informatyce
 
@@ -89,16 +95,13 @@ którzy robią tylko frontend, to jak możliwe jest robienie jednego i drugiego
 jednocześnie?
 
 W praktyce nie jest to takie trudne, szczególnie w wielkich firmach gdzie jest dużo
-doświadczonych programistów którzy mają ogólne wykształcenie. Nauczenie się frontendu na
-tyle żeby pisać sensownie działające aplikacje jest zadaniem na kilka dni/tygodni dla
-każdego backendowca z kilkuletnim doświadczeniem, podobnie w drugą stronę. Oczywiście w
-każdej firmie są ludzie specjalizujący się w jednej konkretnej rzeczy, jednak to czego
-firma potrzebuje zmienia się często w czasie, i ludzi którzy umieją podstawy frontendu i
-backendu na tyle żeby szybko zrozumieć konkretne zagadnienia wymagane przez konkretny
-projekt potrzeba zawsze jak najwięcej. Doświadczeni ludzie pomagają przeważnie ustawić
-nowy projekt na samym początku i od czasu do czasu mogą doradzić jakieś zmiany lub pomóc
-naprawić bardzo specyficzne i skomplikowane błedy których mniej doświadczone osoby po
-prostu nie zauważą.
+doświadczonych programistów którzy mają ogólne wykształcenie. Specjaliści od frontendu
+i backendu są potrzebni żeby dobrze zaplanować projekt, doradzić jakieś zmiany lub pomóc naprawić najbardziej specyficzne i skomplikowane błedy. Reszta pracy, czyli zdecydowana
+większość, nie wymaga aż tak głębokiej znajomości konkretnych narzędzi. Nauczenie się
+frontendu na tyle żeby pisać sensownie działające aplikacje jest zadaniem na kilka dni (max tygodni) dla każdego backendowca z kilkuletnim doświadczeniem, podobnie w drugą stronę.
+To jakich technologii dana firma potrzebuje zmienia się często w czasie, często więc
+zmieniają się też specjaliści od tych technologii. Ludzi którzy umieją zarówno podstawy frontendu jak i backendu na tyle żeby być produktywnym potrzeba zawsze jak najwięcej, w
+efekcie ich sytuacja na rynku pracy jest znacznie pewniejsza.
 
 ### DevOps specialist
 
@@ -157,14 +160,15 @@ W zasadzie to identyczna rola do frontend developera, różni sie tylko tym że 
 software na urządzenia mobilne i przydają się tu technologie takie jak
 [Swift](https://developer.apple.com/swift/) (na iOS), [Kotlin](https://kotlinlang.org/)
 (Android), [Flutter](https://flutter.dev/) + [Dart](https://dart.dev/) lub
-[React Native](https://reactnative.dev/).
+[React Native](https://reactnative.dev/). Te dwie ostatnie pozwalają na pisanie kodu
+który działa zarówno na iOS jak i Androidzie, potencjalnie poświęcając trochę wydajności.
 
 ### Embedded developer
 
 Embedded devices = komputery i mikrokontrolery wbudowane w większe urządzenia (samochody,
 roboty, samoloty, rakiety, elektrownie, drony, itd.) - przyjemna rola dla osób które
 lubią pracować blisko hardware'u i pisać głównie w C, chociaż ostatnio coraz popularne
-stają się też inne języki.
+stają się też inne języki (w szczególności Rust).
 
 Wyzwania są tu często zupełnie inne niż w pozostałych przypadkach - kod musi często być
 mały, używać niewiele pamięci i wiele funkcjonalności wykorzystuje bezpośrednio konkretny
@@ -173,9 +177,8 @@ bezpieczeństwo często używa się systemów do formalnej weryfikacji kodu i sy
 testowania jak program zachowa się w różnych sytuachach.
 
 Pisanie w C może wydawać się proste, jednak kod ściśle związany z hardware'm nie jest
-zawsze taki piękny i łatwy do napisania, a debugowanie błędów jest znacznie utrudnione
-przez brak typowych narzędzi. Niemniej jednak ta praca, podobnie jak frontend, daje dużą
-satysfakcję z możliwośći zobaczenia i pokazania innym co konkretnie się robi.
+zawsze taki piękny i łatwy do napisania, a debugowanie błędów jest znacznie utrudnione. Niemniej jednak ta praca, podobnie jak frontend, daje dużą satysfakcję z możliwośći
+zobaczenia i pokazania innym co konkretnie się robi.
 
 ### Data scientist
 
@@ -208,11 +211,10 @@ opiniami prowadzi
 Aby być dobrym data scientist konieczne jest zrozumienie podstaw statystyki, zwłaszcza
 metod opytmalizacji i machine learningu, oraz ciekawość i chęć do częstych kontaktów z
 klientami i innymi osobami aby lepiej zrozumieć biznesowy problem. Jest to bardzo ciekawa
-rola pozwalająca połączyć zainteresowanie biznesem i zdolności
-matematyczno-informatyczne, a także zmierzyć się z wieloma problemami. Wadą może być
-natomiast eksperymentacyjna natura pracy, która z definicji oznacza że większość kodu
-który tworzymy nie przyda się na nic poza udowodnieniem że coś nie działa wystarczająco
-dobrze.
+rola pozwalająca połączyć zainteresowanie biznesem i zdolności matematyczno-informatyczne,
+a także zmierzyć się z wieloma problemami. Wadą może być natomiast eksperymentacyjna
+natura pracy, która z definicji oznacza że większość kodu który tworzymy nie przyda się
+na nic poza udowodnieniem że coś nie działa wystarczająco dobrze.
 
 ### Data engineer
 
@@ -303,7 +305,8 @@ nad dużą liczbą własnych projektów, warto też przeczytać poradnik
 
 ## Jak wygląda rynek pracy
 
-Kilka ciekawych ankiet które pokazują jakie technologie są używane do czego + jakie są /
+Dla osób lubiących różnego rodzaju statystyki i liczby, poniżej można znaleźć kilka
+ciekawych ankiet które pokazują jakie technologie są używane do czego + jakie są /
 nie są lubiane, no i jak ogólnie wygląda rynek:
 
 - [https://insights.stackoverflow.com/survey/2020](https://insights.stackoverflow.com/survey/2020)
@@ -317,9 +320,10 @@ Poza tym, nie zaszkodzi rzucić okiem na lokalny rynek pracy, np. na:
 - [https://nofluffjobs.com/](https://nofluffjobs.com/)
 - [https://justjoin.it/](https://justjoin.it/)
 
-I na porównanie stawek z wielkimi międzynarodowymi firmami żeby zobaczyć różnice:
+I na porównanie stawek z wielkimi międzynarodowymi firmami żeby zobaczyć różnice (kwoty
+poniżej dotyczą w większośći USA, wynagrodzenia w EU są często odrobinę niższe):
 
 - [https://www.levels.fyi/](https://www.levels.fyi/)
 
-W przypadku większych firm, można rzucić okiem na oferty pracy jakie obecnie mają na
+W przypadku większych firm, można też rzucić okiem na oferty pracy jakie obecnie mają na
 swoich stronach, czego wymagają, itp.
