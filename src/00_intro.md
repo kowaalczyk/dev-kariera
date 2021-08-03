@@ -27,7 +27,7 @@ pomocne, ale będzie często pozbawione kontekstu który pozwala zrozumieć co w
 
 ### Specjalizacje
 
-TODO
+TODO: Tutaj w przyszłości będą opisane różne specjalizacje które pomoga w dalszym planowaniu kariery
 
 <!-- - [Praca badawcza]() -->
 <!-- - [DevOps]() -->
@@ -45,9 +45,15 @@ TODO
 <!-- - [Jak planować ścieżkę kariery]() -->
 <!-- - [Przydatne miękkie umiejętności]() -->
 
+## Mentoring
+
+Ponieważ sam miałem świetnych mentorów, staram się przeznaczać część swojego czasu na pomoc
+innym. Jeśli uważasz że mogę Ci pomóc w rozwoju kariery, napisz do mnie przez LinkedIn
+albo GitHub (zalogowani użytkownicy mogą zobaczyć mojego maila).
+
 ## Podziel się swoimi doświadczeniami
 
-W tym momencie większość rodziałów jest jeszcze w budowie, jednak to co jest tu widoczne
-jest już całkiem przydatne. Jeśli chcesz się podzielić swoimi doświadczeniami, zgłosić
-jakiś błąd lub zaproponować poprawkę zachęcam do zrobienia tego poprzez GitHub:
+W tym momencie część rodziałów jest jeszcze w budowie, jednak to co tu widzisz powinno
+być już wystarczająco przydatne. Jeśli chcesz się podzielić swoimi doświadczeniami,
+zgłosić jakiś błąd lub zaproponować poprawkę zachęcam do zrobienia tego poprzez GitHub:
 [https://github.com/kowaalczyk/dev-kariera](https://github.com/kowaalczyk/dev-kariera).

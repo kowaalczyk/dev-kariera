@@ -4,6 +4,20 @@ Pisanie tego poradnika zacząłem w zasadzie od zapytania znajomych jak oni dost
 swój pierwszy staż - w praktyce często to właśnie pierwszy krok jest najtrudniejszy,
 jednak jak pokazują poniższe przykłady trudności można pokonać na wiele różnych sposobów.
 
+Jak pokazują poniższe przykłady, jest wiele rzeczy które zwiększają szanse znalezienia
+fajnej okazji do pierwszego stażu. Są to między innymi:
+
+- chodzenie na wydarzenia organizowane (lub sponsorowane) przez duże firmy: warsztaty,
+  hackathony, spotkania z pracownikami, targi pracy, konferencje
+- utrzymywanie kontaktu z ludźmi z branży: prowadzącymi zajęcia i znajomymi ze studiów,
+  rekruterami i developerami poznanymi na wydarzeniach wspomnianych wyżej, itd.
+- regularne przeglądanie stron z ofertami pracy: ogólnych (np. LinkedIn, NoFluffJobs) ale
+  też firmowych (Google Careers, Facebook Job Search) w połączeniu z utrzymywaniem
+  w miarę aktualnego CV żeby łatwo i szybko aplikować na pojawiające się oferty
+
+Oczywiście często nie mamy wystarczająco czasu żeby robić wszystkie z nich - warto jednak
+starać się robić jak najwięcej, szczególnie jeśli nie wie się co chce się robić po studiach.
+
 ## Znajoma #1
 
 > Ja w liceum zrobiłam CV, na którym nie było nic oprócz OI i pracowania w szkole.
