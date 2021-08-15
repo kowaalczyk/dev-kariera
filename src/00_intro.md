@@ -3,10 +3,11 @@
 Prosty przewodnik napisany z myślą o studentach MIM UW, ale potencjalnie przydatny dla
 każdego kto zaczyna programować.
 
-Przeczytanie poradnika w całości pomoże Ci zaplanować swoją karierę zawodową,
-tak aby w dłuższej perspektywie znaleźć ciekawą, dobrze płatną i rozwojową pracę.
-Wybiórcze czytanie rozdziałów o pisaniu CV, rozmowach o pracę itp. może być również
-pomocne, ale będzie często pozbawione kontekstu który pozwala zrozumieć co warto.
+Przeczytanie poradnika w całości pomoże Ci zaplanować swoją karierę zawodową, tak aby w
+dłuższej perspektywie znaleźć ciekawą, dobrze płatną i rozwojową pracę. Wybiórcze
+czytanie rozdziałów o pisaniu CV, rozmowach o pracę itp. może być również pomocne, ale
+będzie często pozbawione kontekstu który pozwala zrozumieć dlaczego warto robić niektóre
+rzeczy a inne nie.
 
 ## Spis treści
 
@@ -27,7 +28,8 @@ pomocne, ale będzie często pozbawione kontekstu który pozwala zrozumieć co w
 
 ### Specjalizacje
 
-TODO: Tutaj w przyszłości będą opisane różne specjalizacje które pomoga w dalszym planowaniu kariery
+TODO: Tutaj w przyszłości będą opisane różne specjalizacje które pomoga w dalszym
+planowaniu kariery
 
 <!-- - [Praca badawcza]() -->
 <!-- - [DevOps]() -->
@@ -47,9 +49,9 @@ TODO
 
 ## Mentoring
 
-Ponieważ sam miałem świetnych mentorów, staram się przeznaczać część swojego czasu na pomoc
-innym. Jeśli uważasz że mogę Ci pomóc w rozwoju kariery, napisz do mnie przez LinkedIn
-albo GitHub (zalogowani użytkownicy mogą zobaczyć mojego maila).
+Ponieważ sam miałem świetnych mentorów, staram się przeznaczać część swojego czasu na
+pomoc innym. Jeśli uważasz że mogę Ci pomóc w rozwoju kariery, napisz do mnie przez
+LinkedIn albo GitHub (zalogowani użytkownicy mogą zobaczyć mojego maila).
 
 ## Podziel się swoimi doświadczeniami
 
